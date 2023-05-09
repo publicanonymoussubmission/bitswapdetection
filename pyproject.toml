@@ -1,0 +1,20 @@
+[project]
+name = "bitswapdetection"
+version = "1.0.0"
+description = "Evaluation script for bit swap detection"
+authors = [
+    {name = "Edouard Yvinec", email="ey@datakalab.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "tensorflow >= 2.9.0", "batch_normalization_folding>=1.0.8", "scikit-network>=0.26.0"
+]
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
